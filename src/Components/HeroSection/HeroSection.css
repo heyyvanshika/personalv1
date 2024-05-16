@@ -1,0 +1,61 @@
+/* HeroSection.css */
+
+.hero-section {
+    background-color: #ffffff;
+    padding: 120px 30px;
+    text-align: left;
+  }
+  
+  .hero-section h1 {
+    font-size: 140px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: Articulat CF, system-ui, sans-serif;
+    font-weight: 700;
+  }
+  
+  .hero-section h2 {
+    /*position: relative;
+    top:-10px;*/
+    font-size: 60px;
+    margin-bottom: 8px;
+    font-weight: lighter;
+    margin-top: -30px;
+  }
+
+  .asterik {
+    font-size: 120px;
+    font-weight: 400;
+  }
+  /*
+  .hero-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero-section button:hover {
+    background-color: #0056b3;
+  }*/
+  .heroBottom{
+    display: flex;
+    flex-direction: row;
+    gap:500px;
+  }
+  .arrow-hero{
+    /*max-width: 1000px;*/
+    width: 450px;
+    height: auto;
+    margin-left: 15px;
+  }
+  .haha{
+    font-family: Articulat CF, system-ui, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: left;
+  }
+  
