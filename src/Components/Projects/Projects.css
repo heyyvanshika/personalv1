@@ -2,10 +2,61 @@
 
 .projects {
     background-color: #ffffff;
-    padding: 0px 30px;
+    padding: 0px 0px;
     text-align: left;
+    height: 1000px;
   }
   
+  .projTop{
+    height: 40%;
+    display: flex;
+    padding: 0 30px;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 30px;
+    /*background-color: blue;*/
+  }
+
+  .projTopLeft{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projTopRight{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: auto;
+  }
+
+  .previewBox{
+    width:350px;
+    height: 200px;
+    background-color: grey;
+    flex-shrink: 0;
+  }
+
+  .previewButton{
+    width: 40%;
+    height: 50px;
+    background-color: black;
+    border-radius: 40px;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .previewText{
+    font-size: 20px;
+    font-family: Articulat CF, system-ui, sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 200;
+  }
+
   .projects h1 {
     font-size: 100px;
     margin-top: 20px;
@@ -20,37 +71,47 @@
     top:-10px;*/
     font-size: 50px;
     margin-bottom: 8px;
-    font-weight: lighter;
+    font-weight: 100;
     margin-top: -30px;
     margin-bottom: 30px;
   }
 
   .arrow-project {
     /*max-width: 1000px;*/
-    width: 450px;
+    width: 400px;
     height: auto;
     margin-left: 15px;
   }
 
-  .projectBox {
-    background-color: #f9f9f9;
-    width: 1200px;
-    height: 500px;
+  /*Top Work Ends - Detailed Project Display Starts*/
+
+  .projectBox { 
+    background-color: black;
+    width: 100%;
+    height: 60%;
     display: flex;
+    flex-direction: row;
     margin: 0 auto;
   }
 
-  .topProject {
+  .leftProjectBox {
+    width: 50%;
     display: flex;
-    flex-direction: row;
-    gap:20px;
+    align-items: center;
+    justify-content: center;
+    border-right: #ffffff;
+    border-left: #ffffff;
+    border-width: 100px;
   }
 
-  .rightProject{
+  .rightProjectBox {
     display: flex;
     flex-direction: column;
+    width: 50%;
+    justify-content: center;
     gap: 20px;
     margin-top: 20px;
+    text-align: left;
   }
 
   .projects h3 {
@@ -58,9 +119,11 @@
     font-family: Articulat CF, system-ui, sans-serif;
     font-weight: 600;
     margin: 0;
+    padding: 5px 5px 5px 5px;
+    color: white;
   }
 
-  .snuxplore-img {
+  .project-img {
     /*max-width: 1000px;*/
     width: auto;
     height: 400px;
@@ -70,7 +133,8 @@
     font-size: 20px;
     font-family: Articulat CF, system-ui, sans-serif;
     margin:0;
-    font-weight: lighter ;
+    font-weight: 150;
+    color: white;
   }
 
 
