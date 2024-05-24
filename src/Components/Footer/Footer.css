@@ -1,0 +1,149 @@
+
+.footer{
+    background-color: white;
+    align-items: center;
+}
+
+.footerTop{
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:40px;
+}
+.footerTopLeft {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 35px;
+}
+.footerTop h2{
+    font-size: 70px;
+    font-family: Articulat CF, system-ui, sans-serif;
+    font-weight: 600;
+    margin: 0px;
+    margin-top: 50px;
+}
+
+.subhead {
+    font-size: 40px;
+    font-family: Articulat CF, system-ui, sans-serif;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.emailcopy {
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    margin-top: 20px;
+}
+
+.email {
+    font-size: 20px;
+    font-family: Articulat CF, system-ui, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.clickCopy {
+    font-size: 25px;
+    font-family: Articulat CF, system-ui, sans-serif;
+    font-weight: 300;
+    margin: 0;
+    font-style: underline;
+}
+
+.footerTopRight {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+
+.hopCall {
+    width: 220px;
+    height: 220px;
+    border-radius: 200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 2;
+    margin-top: 20px;
+}
+
+.hopCallText {
+    font-size: 20px;
+    color: white;
+    font-family: Roboto Mono, sans-serif;
+}
+
+.bottomHead{
+    font-size: 60px;
+    font-family: Articulat CF, system-ui, sans-serif;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px 50px;
+}
+.footerBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: baseline;
+    margin-top: 20px;
+}
+.bottomCircle {
+    width: 230px;
+    height: 230px;
+    border-radius: 200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: Roboto Mono, sans-serif;
+}
+
+.bottomButton {
+    height: 70px;
+    width: 250px;
+    border-radius: 20px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Articulat CF, system-ui, sans-serif;
+    font-weight: 300;
+}
+
+.bottomTwo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.arrow-footer{
+    width: 70%;
+    height: auto;
+    padding: 0px 60px;
+    margin-top: -120px;
+    z-index: -1;
+
+}
+
+#linkedin{
+    transform: rotate(-25deg);
+}
+
+#github{
+    transform: rotate(20deg);
+    margin-bottom: 30px;
+}

@@ -9,7 +9,8 @@ function App() {
     <div>
       <HeroSection />
       <Projects />
-
+      <Work />
+      <Footer />
     </div>
   );
 }
